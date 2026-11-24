@@ -1,0 +1,158 @@
+{
+ "settings": {
+  "seed": 42,
+  "train_ratio": 0.8,
+  "max_tokens": 400,
+  "temperature": 0.0,
+  "retries": 3,
+  "retry_backoff_seconds": 2,
+  "requests_per_minute": 20,
+  "cache_enabled": true,
+  "cache_dir": "cache",
+  "log_dir": "logs",
+  "results_dir": "results",
+  "data_dir": "data",
+  "questions_file": "data/questions/seed_questions.jsonl",
+  "splits_dir": "data/splits",
+  "train_file": "data/splits/train.jsonl",
+  "test_file": "data/splits/test.jsonl",
+  "prompt_styles": [
+   "direct",
+   "think_step_by_step",
+   "concise"
+  ],
+  "self_consistency_samples": 5,
+  "abstain_option": true,
+  "numeric_tolerance": 0.01,
+  "save_raw_responses": true
+ },
+ "dry_run": true,
+ "n_results": 270,
+ "n_questions": 6,
+ "models": [
+  "gemini_main",
+  "groq_main",
+  "mistral_main"
+ ],
+ "metrics": [
+  {
+   "model": "gemini_main",
+   "style": "concise",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "gemini_main",
+   "style": "direct",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "gemini_main",
+   "style": "think_step_by_step",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "groq_main",
+   "style": "concise",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "groq_main",
+   "style": "direct",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "groq_main",
+   "style": "think_step_by_step",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "mistral_main",
+   "style": "concise",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "mistral_main",
+   "style": "direct",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  },
+  {
+   "model": "mistral_main",
+   "style": "think_step_by_step",
+   "accuracy": 0.0,
+   "accuracy_n": 0,
+   "brier": null,
+   "brier_n": 0,
+   "calibration_gap": null,
+   "calibration_gap_n": 0,
+   "abstain_rate": 1.0,
+   "abstain_n": 30
+  }
+ ],
+ "platt": null,
+ "disagreement": {
+  "questions_compared": 0,
+  "agree_count": 0,
+  "disagree_count": 0,
+  "agree_rate": 0.0,
+  "agree_when_right": 0,
+  "agree_when_wrong": 0,
+  "details": []
+ },
+ "generated_utc": "2026-11-24T07:40:31.574927+00:00"
+}

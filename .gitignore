@@ -1,0 +1,10 @@
+# Secrets: NEVER commit these
+.env
+.venv/
+
+# Python noise
+__pycache__/
+*.pyc
+
+# Cache of API responses (can be large; logs/ is kept so results are reproducible)
+cache/

@@ -1,0 +1,31 @@
+# Providers: where to send requests. All three speak the same "OpenAI-style" API,
+# which lets us use ONE client library and ONE wrapper for everything.
+providers:
+  gemini:
+    base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+    key_env: GEMINI_API_KEY
+  groq:
+    base_url: "https://api.groq.com/openai/v1"
+    key_env: GROQ_API_KEY
+  mistral:
+    base_url: "https://api.mistral.ai/v1"
+    key_env: MISTRAL_API_KEY
+
+# Models: fill in model_id AFTER running scripts/00_list_models.py.
+# Free-tier model names change often, so we never hardcode them in Python.
+# Pick models from DIFFERENT labs (the "lab" field is for your own bookkeeping).
+# Prefer plain instruct models over "thinking/reasoning" ones for now, because
+# they make the "answer fast" vs "think step by step" comparison cleaner.
+models:
+  - name: gemini_main
+    lab: Google
+    provider: gemini
+    model_id: "FILL_ME_IN"
+  - name: groq_main
+    lab: "FILL_ME_IN (e.g. Meta, OpenAI-oss, Alibaba, ...)"
+    provider: groq
+    model_id: "FILL_ME_IN"
+  - name: mistral_main
+    lab: Mistral
+    provider: mistral
+    model_id: "FILL_ME_IN"

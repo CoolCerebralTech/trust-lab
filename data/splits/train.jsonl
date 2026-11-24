@@ -1,0 +1,24 @@
+{"id": "q20", "type": "yesno", "question": "Spain won the 2026 FIFA World Cup.", "answer": "yes", "cutoff": "post", "source": "FIFA World Cup 2026"}
+{"id": "q15", "type": "yesno", "question": "Red blood cells carry oxygen around the body.", "answer": "yes", "cutoff": "pre", "source": "biology"}
+{"id": "q11", "type": "numeric", "question": "What is the smallest prime number?", "answer": "2", "cutoff": "pre", "source": "mathematics"}
+{"id": "q27", "type": "yesno", "question": "Guido van Rossum created the Python programming language.", "answer": "yes", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q23", "type": "numeric", "question": "How many Senate seats are needed for a majority in the US Senate?", "answer": "51", "cutoff": "pre", "source": "US Constitution"}
+{"id": "q07", "type": "numeric", "question": "What is 2 + 2?", "answer": "4", "cutoff": "pre", "source": "arithmetic"}
+{"id": "q06", "type": "mc", "question": "What is the capital city of Kenya?", "options": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"], "answer": "Nairobi", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q13", "type": "mc", "question": "What is the capital city of Japan?", "options": ["Tokyo", "Osaka", "Kyoto", "Seoul"], "answer": "Tokyo", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q12", "type": "yesno", "question": "H2O is the chemical formula for water.", "answer": "yes", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q16", "type": "mc", "question": "What is the capital city of Brazil?", "options": ["Brasilia", "Rio de Janeiro", "Sao Paulo", "Salvador"], "answer": "Brasilia", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q10", "type": "numeric", "question": "What is the speed of light in meters per second (approximately)?", "answer": "299792458", "cutoff": "pre", "source": "physics constant"}
+{"id": "q26", "type": "mc", "question": "What is the capital of Canada?", "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"], "answer": "Ottawa", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q30", "type": "yesno", "question": "The 2026 FIFA World Cup was hosted by the United States, Canada, and Mexico.", "answer": "yes", "cutoff": "post", "source": "FIFA World Cup 2026"}
+{"id": "q22", "type": "mc", "question": "Which stadium hosted the 2026 FIFA World Cup final?", "options": ["New York New Jersey Stadium", "MetLife Stadium", "SoFi Stadium", "Hard Rock Stadium"], "answer": "New York New Jersey Stadium", "cutoff": "post", "source": "FIFA World Cup 2026"}
+{"id": "q17", "type": "yesno", "question": "The Earth orbits the Sun.", "answer": "yes", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q28", "type": "numeric", "question": "What is 7 squared (7 * 7)?", "answer": "49", "cutoff": "pre", "source": "arithmetic"}
+{"id": "q02", "type": "mc", "question": "Which party won control of the US House of Representatives in the November 2026 midterm elections?", "options": ["Democrats", "Republicans"], "answer": "Democrats", "cutoff": "post", "source": "AP News / NPR 2026 midterms"}
+{"id": "q14", "type": "numeric", "question": "What is 15 multiplied by 15?", "answer": "225", "cutoff": "pre", "source": "arithmetic"}
+{"id": "q19", "type": "mc", "question": "Which is the largest ocean on Earth?", "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"], "answer": "Pacific Ocean", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q03", "type": "mc", "question": "Which party won control of the US Senate in the November 2026 midterm elections?", "options": ["Democrats", "Republicans"], "answer": "Democrats", "cutoff": "post", "source": "AP News 2026 midterms"}
+{"id": "q18", "type": "numeric", "question": "What is 100 divided by 4?", "answer": "25", "cutoff": "pre", "source": "arithmetic"}
+{"id": "q29", "type": "mc", "question": "What is the hardest naturally occurring mineral?", "options": ["Diamond", "Talc", "Quartz", "Corundum"], "answer": "Diamond", "cutoff": "pre", "source": "general knowledge"}
+{"id": "q05", "type": "yesno", "question": "Ferran Torres scored the winning goal in the 2026 FIFA World Cup final.", "answer": "yes", "cutoff": "post", "source": "AP News / FIFA"}
+{"id": "q25", "type": "numeric", "question": "How many House seats are needed for a majority in the US House?", "answer": "218", "cutoff": "pre", "source": "US Constitution"}
